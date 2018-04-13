@@ -8,3 +8,4 @@ for line in sys.stdin:
 
 f = open("/home/arias/diploma/datasets/" + str(hashlib.md5(tmp.encode("utf-8")).hexdigest()), 'w')
 f.write(tmp)
+f.close()
